@@ -13,6 +13,15 @@ module.exports = {
     preflight: false,
   },
   theme: {
+    // connect with bootstrap screen size
+    screens: {
+      'xs': '0px',      // Extra small devices (portrait phones)
+      'sm': '576px',    // Small devices (landscape phones) - Bootstrap sm
+      'md': '768px',    // Medium devices (tablets) - Bootstrap md  
+      'lg': '992px',    // Large devices (desktops) - Bootstrap lg
+      'xl': '1200px',   // Extra large devices (large desktops) - Bootstrap xl
+      'xxl': '1400px',  // Extra extra large devices - Bootstrap xxl
+    },
     extend: {
       colors: {
         primary: 'rgb(var(--color-primary) / <alpha-value>)',
@@ -23,7 +32,7 @@ module.exports = {
         warning: 'rgb(var(--color-warning) / <alpha-value>)',
         'text-title': 'rgb(var(--color-text-title) / <alpha-value>)',
         'text-basic': 'rgb(var(--color-text-basic) / <alpha-value>)',
-        'border-theme': 'rgb(var(--border-color-rgb) / <alpha-value>)',
+        'border': 'rgb(var(--color-border-1) / <alpha-value>)',
         'bg': 'rgb(var(--bg) / <alpha-value>)',
         'bg-2nd': 'rgb(var(--bg-2nd) / <alpha-value>)',
         'bg-opposite': 'rgb(var(--bg-opposite) / <alpha-value>)',
@@ -36,6 +45,7 @@ module.exports = {
     },
     fontSize: {
       xs: '12px',
+      'sm': 'var(--size-small)',
       'size-sm': 'var(--size-small)',
       'size-xs': 'var(--size-small-a)',
       'size-1': 'var(--size-1)',

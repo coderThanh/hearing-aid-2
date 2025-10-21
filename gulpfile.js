@@ -27,11 +27,15 @@ gulp.task("serve", () => {
     server.reload();
   });
   
-  gulp.watch("8pm-assest/**/*").on('change', () => {
+  // custome code
+  gulp.watch("8pm-assest/css/**/*.css").on('change', () => {
+    server.reload();
+  });
+  gulp.watch("8pm-assest/js/**/*.js").on('change', () => {
     server.reload();
   });
   
-  // Thêm watch cho CSS và JS files
+  // root theme
   gulp.watch("css/**/*.css").on('change', () => {
     server.reload();
   });

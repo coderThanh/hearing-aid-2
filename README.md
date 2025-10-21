@@ -1,7 +1,18 @@
 # nestro
 Nestro HTML Template
 
-## Build html template
+## Development Commands
+
+### Run both Gulp and Tailwind watch simultaneously
+```
+npm run dev
+```
+or
+```
+npm start
+```
+
+###  Hot reload anhd build tempalte
 ```
 npx gulp
 ```

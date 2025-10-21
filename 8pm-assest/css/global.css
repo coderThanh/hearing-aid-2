@@ -1,5 +1,5 @@
 :root {
-    --color-primary: 252 208 145;
+    --color-primary: 30 132 181;
     --color-secondary: 62 72 39;
     --color-alert: 236 69 60;
     --color-success: 74 159 83;
@@ -8,7 +8,8 @@
     --color-border-1: 33 35 34;
     --color-border-opposite: 255 255 255;
     --bg: 255 255 255;
-    --bg-2nd: 247 247 247;
+    --bg-2nd: 239 248 255;
+    --bg-3nd: 247 247 247;
     --bg-opposite: 33 34 38;
     --color-text-title: 33 35 34;
     --color-text-basic: 102 102 102;
@@ -97,13 +98,15 @@ h6 {
 /* Responsive ---------------- */
 @media only screen and (min-width: 1025px) and (max-width: 1600px) {}
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1199px) {}
 
-@media only screen and (max-width: 849px) {
+@media only screen and (max-width: 991px) {
     :root {
         font-size: 15px;
         --size-ratio: 1.16;
     }
 }
 
-@media only screen and (max-width: 549px) {}
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 575px) {}

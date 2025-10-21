@@ -106,9 +106,145 @@
   --tw-contain-style:  
 }
 
+.tw-col-span-2 {
+  grid-column: span 2 / span 2
+}
+
+.tw-mb-\[8px\] {
+  margin-bottom: 8px
+}
+
+.tw-mt-\[14px\] {
+  margin-top: 14px
+}
+
+.tw-mt-\[35px\] {
+  margin-top: 35px
+}
+
+.tw-flex {
+  display: flex
+}
+
+.tw-grid {
+  display: grid
+}
+
+.tw-hidden {
+  display: none
+}
+
+.tw-h-\[60px\] {
+  height: 60px
+}
+
+.tw-h-\[80px\] {
+  height: 80px
+}
+
+.\!tw-w-\[auto\] {
+  width: auto !important
+}
+
+.tw-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
+.tw-grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.tw-items-center {
+  align-items: center
+}
+
+.tw-gap-\[10px\] {
+  gap: 10px
+}
+
+.tw-gap-\[30px_50px\] {
+  gap: 30px 50px
+}
+
+.tw-border-0 {
+  border-width: 0px
+}
+
+.tw-border-t {
+  border-top-width: 1px
+}
+
+.tw-border-solid {
+  border-style: solid
+}
+
+.tw-border-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(var(--color-border-1) / var(--tw-border-opacity, 1))
+}
+
+.tw-border-border\/5 {
+  border-color: rgb(var(--color-border-1) / 0.05)
+}
+
+.tw-border-border\/10 {
+  border-color: rgb(var(--color-border-1) / 0.1)
+}
+
+.tw-object-contain {
+  -o-object-fit: contain;
+     object-fit: contain
+}
+
+.tw-pt-0 {
+  padding-top: 0px
+}
+
+.tw-pt-\[10px\] {
+  padding-top: 10px
+}
+
+.tw-pb-\[20px\] {
+  padding-bottom: 20px
+}
+
+.tw-pb-\[40px\] {
+  padding-bottom: 40px
+}
+
+.tw-pb-\[60px\] {
+  padding-bottom: 60px
+}
+
+.tw-text-center {
+  text-align: center
+}
+
+.tw-text-sm {
+  font-size: var(--size-small)
+}
+
+.tw-font-semibold {
+  font-weight: 600
+}
+
 .tw-ordinal {
   --tw-ordinal: ordinal;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)
+}
+
+.\!tw-text-bg {
+  --tw-text-opacity: 1 !important;
+  color: rgb(var(--bg) / var(--tw-text-opacity, 1)) !important
+}
+
+.tw-text-bg {
+  --tw-text-opacity: 1;
+  color: rgb(var(--bg) / var(--tw-text-opacity, 1))
+}
+
+.tw-text-bg\/70 {
+  color: rgb(var(--bg) / 0.7)
 }
 
 /* Your custom styles */
@@ -117,4 +253,20 @@
 }
 
 @media screen and (max-width: 767px) {
+}
+
+@media (min-width: 576px) {
+  .sm\:tw-pt-\[20px\] {
+    padding-top: 20px
+  }
+}
+
+@media (min-width: 992px) {
+  .lg\:tw-hidden {
+    display: none
+  }
+
+  .lg\:tw-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
 }
