@@ -1,7 +1,11 @@
 # nestro
 Nestro HTML Template
 
-## Development Commands
+## Github
+```
+git remote add origin https://github.com/coderThanh/hearing-aid-2.git
+git push -u origin main
+```
 
 ### Run both Gulp and Tailwind watch simultaneously
 ```
@@ -15,6 +19,7 @@ npm start
 ###  Hot reload anhd build tempalte
 ```
 npx gulp
+
 ```
 
 ## Tailwind CSS Build
