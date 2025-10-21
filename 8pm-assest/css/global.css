@@ -1,0 +1,109 @@
+:root {
+    --color-primary: 252 208 145;
+    --color-secondary: 62 72 39;
+    --color-alert: 236 69 60;
+    --color-success: 74 159 83;
+    --color-process: 63 162 246;
+    --color-warning: 255 175 0;
+    --color-border-1: 33 35 34;
+    --color-border-opposite: 255 255 255;
+    --bg: 255 255 255;
+    --bg-2nd: 247 247 247;
+    --bg-opposite: 33 34 38;
+    --color-text-title: 33 35 34;
+    --color-text-basic: 102 102 102;
+
+    --price-color: 102 102 102;
+    --price-sale-color: 236 69 60;
+
+    --opacity-text-sub: 0.7;
+
+
+    --ff-body: 'Be Vietnam Pro', sans-serif;
+    --ff-heading: 'Be Vietnam Pro', sans-serif;
+    --tp-ff-body: var(var(--ff-body));
+    --tp-ff-heading: var(var(--ff-heading));
+    --ff-material-outline: 'Material Symbols Outlined';
+    --ff-material-round: 'Material Symbols Rounded';
+
+    --blog-img-ratio: 60%;
+    --product-img-ratio: 65%;
+
+    --radius-1: 6px;
+    --radius-2: 10px;
+    --radius-3: 16px;
+    --radius-4: 28px;
+    --radius-sm: 4px;
+
+    --size-ratio: 1.175;
+    --size-small: 14px;
+    --size-small-a: 13px;
+    --size-2: calc(1rem * var(--size-ratio) - 1px);
+    --size-3: calc(var(--size-2) * var(--size-ratio));
+    --size-4: calc(var(--size-3) * var(--size-ratio));
+    --size-5: calc(var(--size-4) * var(--size-ratio));
+    --size-6: calc(var(--size-5) * var(--size-ratio));
+    --size-7: calc(var(--size-6) * var(--size-ratio));
+    --size-8: calc(var(--size-7) * var(--size-ratio));
+
+    --sketch-loading-bg: linear-gradient(90deg, rgb(var(--bg-opposite), 5%) 8%, rgb(var(--bg)) 18%, rgb(var(--bg-opposite), 5%) 33%);
+    --sketch-loading-bg-size: 200% 100%;
+    --sketch-loading-animetion: 1.5s sketchloading linear infinite;
+}
+
+body {
+    font-family: var(--ff-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-heading);
+}
+
+/* scrollbar */
+.scrollbar::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(var(--color-text-title)/ 12%);
+    border-radius: 100px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: rgb(var(--color-text-title)/ 8%);
+}
+
+.scrollbar-opposite::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+.scrollbar-opposite::-webkit-scrollbar-thumb {
+    background: rgb(var(--bg)/ 12%);
+    border-radius: 100px;
+}
+
+.scrollbar-opposite::-webkit-scrollbar-track {
+    background: rgb(var(--bg)/ 8%);
+}
+
+
+/* Responsive ---------------- */
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 849px) {
+    :root {
+        font-size: 15px;
+        --size-ratio: 1.16;
+    }
+}
+
+@media only screen and (max-width: 549px) {}

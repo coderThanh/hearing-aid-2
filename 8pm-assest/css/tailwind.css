@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles */
+@layer components {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
