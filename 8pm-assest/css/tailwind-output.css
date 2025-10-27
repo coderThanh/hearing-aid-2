@@ -183,10 +183,6 @@
   border-color: rgb(var(--color-border-1) / var(--tw-border-opacity, 1))
 }
 
-.tw-border-border\/5 {
-  border-color: rgb(var(--color-border-1) / 0.05)
-}
-
 .tw-border-border\/10 {
   border-color: rgb(var(--color-border-1) / 0.1)
 }
@@ -196,24 +192,16 @@
      object-fit: contain
 }
 
+.tw-pb-\[60px\] {
+  padding-bottom: 60px
+}
+
 .tw-pt-0 {
   padding-top: 0px
 }
 
 .tw-pt-\[10px\] {
   padding-top: 10px
-}
-
-.tw-pb-\[20px\] {
-  padding-bottom: 20px
-}
-
-.tw-pb-\[40px\] {
-  padding-bottom: 40px
-}
-
-.tw-pb-\[60px\] {
-  padding-bottom: 60px
 }
 
 .tw-text-center {
