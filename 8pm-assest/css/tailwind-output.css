@@ -110,24 +110,40 @@
   grid-column: span 2 / span 2
 }
 
+.tw-mb-\[30px\] {
+  margin-bottom: 30px
+}
+
 .tw-mb-\[8px\] {
   margin-bottom: 8px
+}
+
+.tw-mt-\[-15px\] {
+  margin-top: -15px
 }
 
 .tw-mt-\[14px\] {
   margin-top: 14px
 }
 
+.tw-mt-\[30px\] {
+  margin-top: 30px
+}
+
 .tw-mt-\[35px\] {
   margin-top: 35px
 }
 
-.tw-mt-\[20px\] {
-  margin-top: 20px
+.tw-mt-\[40px\] {
+  margin-top: 40px
 }
 
-.tw-mt-\[30px\] {
-  margin-top: 30px
+.tw-mb-\[40px\] {
+  margin-bottom: 40px
+}
+
+.tw-mb-\[50px\] {
+  margin-bottom: 50px
 }
 
 .tw-flex {
@@ -195,6 +211,20 @@
   border-color: rgb(var(--color-border-1) / 0.1)
 }
 
+.tw-border-\[\#e5e5e5\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity, 1))
+}
+
+.tw-border-t-border {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(var(--color-border-1) / var(--tw-border-opacity, 1))
+}
+
+.tw-border-t-border\/10 {
+  border-top-color: rgb(var(--color-border-1) / 0.1)
+}
+
 .tw-bg-bg-2nd {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--bg-2nd) / var(--tw-bg-opacity, 1))
@@ -203,11 +233,6 @@
 .tw-object-contain {
   -o-object-fit: contain;
      object-fit: contain
-}
-
-.tw-py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px
 }
 
 .tw-py-\[40px\] {
@@ -273,16 +298,6 @@
 }
 
 @media (min-width: 768px) {
-  .md\:tw-py-\[40px\] {
-    padding-top: 40px;
-    padding-bottom: 40px
-  }
-
-  .md\:tw-py-\[60px\] {
-    padding-top: 60px;
-    padding-bottom: 60px
-  }
-
   .md\:tw-py-\[50px\] {
     padding-top: 50px;
     padding-bottom: 50px
