@@ -160,15 +160,30 @@
     height: 20px;
 }
 
-.pm-product-box {}
+/* Ux - Single post tag --- */
+.post-tags .tag-links a {
+    font-size: var(--size-small);
+    font-weight: 400;
+    border-radius: var(--radius-1);
+    padding: 5px 15px;
+}
 
-.pm-product-box {}
+/* Ux - Social --- */
+.post-social-sharing ul li a {
+    border-radius: var(--radius-1);
+    width: 35px;
+    height: 35px;
+}
 
-.pm-product-box {}
+.post-social-sharing ul li a i {
+    font-size: 15px;
+}
 
-.pm-product-box {}
-
-.pm-product-box {}
+/* Single - Post ---- */
+.page-header-box h1 {
+    font-weight: 600;
+    line-height: 1.3;
+}
 
 
 /* Responsive ---------------- */

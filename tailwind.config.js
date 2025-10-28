@@ -35,6 +35,7 @@ module.exports = {
         'border': 'rgb(var(--color-border-1) / <alpha-value>)',
         'bg': 'rgb(var(--bg) / <alpha-value>)',
         'bg-2nd': 'rgb(var(--bg-2nd) / <alpha-value>)',
+        'bg-3nd': 'rgb(var(--bg-3nd) / <alpha-value>)',
         'bg-opposite': 'rgb(var(--bg-opposite) / <alpha-value>)',
         'price': 'rgb(var(--price-color) / <alpha-value>)',
         'price-sale': 'rgb(var(--price-sale-color) / <alpha-value>)',
