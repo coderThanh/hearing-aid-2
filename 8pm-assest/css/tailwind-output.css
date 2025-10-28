@@ -110,16 +110,16 @@
   grid-column: span 2 / span 2
 }
 
-.tw-mb-\[30px\] {
-  margin-bottom: 30px
+.tw-mb-\[40px\] {
+  margin-bottom: 40px
+}
+
+.tw-mb-\[50px\] {
+  margin-bottom: 50px
 }
 
 .tw-mb-\[8px\] {
   margin-bottom: 8px
-}
-
-.tw-mt-\[-15px\] {
-  margin-top: -15px
 }
 
 .tw-mt-\[14px\] {
@@ -136,14 +136,6 @@
 
 .tw-mt-\[40px\] {
   margin-top: 40px
-}
-
-.tw-mb-\[40px\] {
-  margin-bottom: 40px
-}
-
-.tw-mb-\[50px\] {
-  margin-bottom: 50px
 }
 
 .tw-flex {
@@ -209,11 +201,6 @@
 
 .tw-border-border\/10 {
   border-color: rgb(var(--color-border-1) / 0.1)
-}
-
-.tw-border-\[\#e5e5e5\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 229 229 / var(--tw-border-opacity, 1))
 }
 
 .tw-border-t-border {
