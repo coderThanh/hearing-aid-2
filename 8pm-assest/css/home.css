@@ -191,31 +191,10 @@
 }
 
 /* Ux - Content view more --- */
-.box-content-loadmore {}
-
-.box-content-loadmore {}
-
-.box-content-loadmore {}
-
-.box-content-loadmore {}
-
 .box-content-loadmore {
     position: relative;
     z-index: 20;
     overflow: hidden;
-}
-
-.box-content-loadmore .btn-loadmore {
-    /* background-color: rgb(var(--bg));
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 5px 20px;
-    transition: 220ms all;
-    cursor: pointer; */
-}
-
-.box-content-loadmore .btn-loadmore:hover {
-    /* color: white; */
 }
 
 .box-content-loadmore .el-actions {
