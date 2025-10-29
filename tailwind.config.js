@@ -37,8 +37,8 @@ module.exports = {
         'bg-2nd': 'rgb(var(--bg-2nd) / <alpha-value>)',
         'bg-3nd': 'rgb(var(--bg-3nd) / <alpha-value>)',
         'bg-opposite': 'rgb(var(--bg-opposite) / <alpha-value>)',
-        'price': 'rgb(var(--price-color) / <alpha-value>)',
-        'price-sale': 'rgb(var(--price-sale-color) / <alpha-value>)',
+        'price': 'rgb(var(--color-price) / <alpha-value>)',
+        'price-sale': 'rgb(var(--color-price-sale) / <alpha-value>)',
       },
       spacing: {
         '1': '1px',

@@ -106,6 +106,10 @@
   --tw-contain-style:  
 }
 
+.tw-order-\[-1\] {
+  order: -1
+}
+
 .tw-col-span-2 {
   grid-column: span 2 / span 2
 }
@@ -186,6 +190,10 @@
   border-width: 0px
 }
 
+.tw-border-b {
+  border-bottom-width: 1px
+}
+
 .tw-border-t {
   border-top-width: 1px
 }
@@ -239,8 +247,16 @@
   padding-top: 10px
 }
 
+.tw-pt-\[40px\] {
+  padding-top: 40px
+}
+
 .tw-text-center {
   text-align: center
+}
+
+.tw-text-justify {
+  text-align: justify
 }
 
 .tw-text-sm {
@@ -289,9 +305,22 @@
     padding-top: 50px;
     padding-bottom: 50px
   }
+
+  .md\:tw-py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px
+  }
+
+  .md\:tw-pt-\[60px\] {
+    padding-top: 60px
+  }
 }
 
 @media (min-width: 992px) {
+  .lg\:tw-order-\[1\] {
+    order: 1
+  }
+
   .lg\:tw-hidden {
     display: none
   }

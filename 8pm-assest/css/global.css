@@ -12,10 +12,10 @@
     --bg-3nd: 247 247 247;
     --bg-opposite: 33 34 38;
     --color-text-title: 33 35 34;
-    --color-text-basic: 102 102 102;
+    --color-text-basic: 82 114 130;
 
-    --price-color: 102 102 102;
-    --price-sale-color: 236 69 60;
+    --color-price: 83 215 136;
+    --color-price-sale: 236 69 60;
 
     --opacity-text-sub: 0.7;
 
@@ -104,6 +104,8 @@ h6 {
     :root {
         font-size: 15px;
         --size-ratio: 1.16;
+        --size-small: 13px;
+        --size-small-a: 12px;
     }
 }
 
