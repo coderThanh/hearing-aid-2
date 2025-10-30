@@ -142,6 +142,14 @@
   margin-top: 40px
 }
 
+.tw-mb-\[30px\] {
+  margin-bottom: 30px
+}
+
+.tw-mb-\[-20px\] {
+  margin-bottom: -20px
+}
+
 .tw-flex {
   display: flex
 }
@@ -160,6 +168,22 @@
 
 .tw-h-\[80px\] {
   height: 80px
+}
+
+.tw-h-\[200px\] {
+  height: 200px
+}
+
+.tw-h-\[300px\] {
+  height: 300px
+}
+
+.tw-h-\[400px\] {
+  height: 400px
+}
+
+.tw-h-\[220px\] {
+  height: 220px
 }
 
 .\!tw-w-\[auto\] {
@@ -184,6 +208,14 @@
 
 .tw-gap-\[30px_50px\] {
   gap: 30px 50px
+}
+
+.tw-rounded-lg {
+  border-radius: var(--radius-2)
+}
+
+.tw-rounded-xl {
+  border-radius: var(--radius-3)
 }
 
 .tw-border-0 {
@@ -225,6 +257,18 @@
   background-color: rgb(var(--bg-2nd) / var(--tw-bg-opacity, 1))
 }
 
+.tw-bg-cover {
+  background-size: cover
+}
+
+.tw-bg-fixed {
+  background-attachment: fixed
+}
+
+.tw-bg-no-repeat {
+  background-repeat: no-repeat
+}
+
 .tw-object-contain {
   -o-object-fit: contain;
      object-fit: contain
@@ -233,6 +277,11 @@
 .tw-py-\[40px\] {
   padding-top: 40px;
   padding-bottom: 40px
+}
+
+.tw-px-0 {
+  padding-left: 0px;
+  padding-right: 0px
 }
 
 .tw-pb-\[60px\] {
@@ -301,6 +350,34 @@
 }
 
 @media (min-width: 768px) {
+  .md\:tw-mb-\[50px\] {
+    margin-bottom: 50px
+  }
+
+  .md\:tw-mb-\[-20px\] {
+    margin-bottom: -20px
+  }
+
+  .md\:tw-h-\[200px\] {
+    height: 200px
+  }
+
+  .md\:tw-h-\[400px\] {
+    height: 400px
+  }
+
+  .md\:tw-h-\[280px\] {
+    height: 280px
+  }
+
+  .md\:tw-h-\[320px\] {
+    height: 320px
+  }
+
+  .md\:tw-rounded-xl {
+    border-radius: var(--radius-3)
+  }
+
   .md\:tw-py-\[50px\] {
     padding-top: 50px;
     padding-bottom: 50px
@@ -321,11 +398,40 @@
     order: 1
   }
 
+  .lg\:tw-mb-\[-20px\] {
+    margin-bottom: -20px
+  }
+
+  .lg\:tw-mb-\[-40px\] {
+    margin-bottom: -40px
+  }
+
   .lg\:tw-hidden {
     display: none
   }
 
   .lg\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl\:tw-rounded-xl {
+    border-radius: var(--radius-3)
+  }
+}
+
+@media (min-width: 1400px) {
+  .xxl\:tw-mt-\[40px\] {
+    margin-top: 40px
+  }
+
+  .xxl\:tw-rounded-xl {
+    border-radius: var(--radius-3)
+  }
+
+  .xxl\:tw-px-\[15px\] {
+    padding-left: 15px;
+    padding-right: 15px
   }
 }
