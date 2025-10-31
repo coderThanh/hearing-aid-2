@@ -23,3 +23,33 @@ function handleContentViewMore() {
 }
 
 handleContentViewMore()
+
+// ------
+/** Handle Content view more  -------- */
+function initStickyHeader() {
+  jQuery(document).ready(function ($) {
+    $('.main-header').each(function (indexInArray, parentEL) {
+      
+      const setHeightHeader = function () {
+        const heightHeader = $(parentEL).height()
+        $(parentEL).height(heightHeader)
+      }
+
+      setHeightHeader()
+      
+      // Handle sticky header
+      window.addEventListener('scroll', function () {
+        const scrollTop = window.scrollY
+        if (scrollTop > 0) {
+          $(parentEL).addClass('is-sticky-header')
+        } else {
+          $(parentEL).removeClass('is-sticky-header')
+        }
+      })
+
+      window.addEventListener('resize', setHeightHeader)
+    })
+  })
+}
+
+initStickyHeader()

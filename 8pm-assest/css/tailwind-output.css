@@ -416,14 +416,6 @@
     display: none
   }
 
-  .md\:tw-h-\[320px\] {
-    height: 320px
-  }
-
-  .md\:tw-h-\[420px\] {
-    height: 420px
-  }
-
   .md\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr))
   }
@@ -473,18 +465,6 @@
     display: none
   }
 
-  .lg\:tw-h-\[420px\] {
-    height: 420px
-  }
-
-  .lg\:tw-h-\[34px\] {
-    height: 34px
-  }
-
-  .lg\:tw-h-\[340px\] {
-    height: 340px
-  }
-
   .lg\:tw-h-\[380px\] {
     height: 380px
   }
@@ -497,10 +477,6 @@
 @media (min-width: 1400px) {
   .xxl\:tw-mt-\[40px\] {
     margin-top: 40px
-  }
-
-  .xxl\:tw-h-\[420px\] {
-    height: 420px
   }
 
   .xxl\:tw-rounded-xl {

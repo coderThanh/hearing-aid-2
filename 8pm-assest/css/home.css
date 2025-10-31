@@ -1,3 +1,23 @@
+/* Header ---- */
+header.main-header {
+    border-bottom: unset;
+}
+
+.header-sticky {
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid var(--dark-divider-color);
+    transition: 220ms all;
+}
+
+.main-header.is-sticky-header .header-sticky  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* HOME - Hero ---- */
 .pm-hero-slider .el-item {
     position: relative;
     width: 100%;
@@ -494,7 +514,6 @@
 
 
 /* Single Product - Accessories Slide ---- */
-.pm-product-single-accessories {}
 
 .pm-product-single-accessories img {
     margin-bottom: 20px;
