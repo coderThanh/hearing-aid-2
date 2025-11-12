@@ -17,6 +17,8 @@ header.main-header {
     z-index: 999;
 }
 
+
+
 /* HOME - Hero ---- */
 .pm-hero-slider .el-item {
     position: relative;
@@ -64,6 +66,20 @@ header.main-header {
 .pm-page-faqs .accordion-header .accordion-button {
     font-weight: 500;
     line-height: 1.5;
+}
+
+.pm-page-faqs .accordion-body p {
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.pm-page-faqs .accordion-body b,
+.pm-page-faqs .accordion-body strong {
+    color: rgb(var(--color-text-title));
+}
+
+.pm-page-faqs .faq-sidebar {
+    top: 130px;
 }
 
 /* Home -Benefit --- */
