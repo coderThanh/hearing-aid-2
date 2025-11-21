@@ -40,9 +40,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="8pm-assest/css/global.css?ver=20251112.1.0">
-    <link rel="stylesheet" href="8pm-assest/css/home.css?ver=20251112.1.0">
-    <link rel="stylesheet" href="8pm-assest/css/tailwind-output.css?ver=20251112.1.0">
+    <link rel="stylesheet" href="8pm-assest/css/global.css?ver=20251121.1.0">
+    <link rel="stylesheet" href="8pm-assest/css/home.css?ver=20251121.1.0">
+    <link rel="stylesheet" href="8pm-assest/css/tailwind-output.css?ver=20251121.1.0">
 </head>
 
 <body>
@@ -58,7 +58,7 @@
 <header class="main-header">
   <div class="header-sticky">
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
+      <div class="container tw-gap-y-[10px]">
         <!-- Logo Start -->
         <a class="navbar-brand" href="/">
           <img src="8pm-assest/images/logo/logo-dark.png" alt="Logo" class="tw-h-[60px]">
@@ -84,6 +84,12 @@
               </li>
             </ul>
           </div>
+          <!-- Button Translate Start -->
+          <div class="tw-mr-[10px]"> <button class="pm-btn-translate" onclick="pmPopupTranslateShow()">
+    <span translate="no" class="pm-btn-translate_text">VI</span>
+    <img class="pm-btn-translate_img" alt="icon-lang" src="8pm-assest/images/translate/vn.svg"/>
+</button> </div>
+          <!-- Button Translate End -->
           <!-- Let’s Start Button Start -->
           <div class="header-btn d-inline-flex">
             <a href="/#test" class="btn-default">Kiểm tra thính lực</a>
@@ -93,10 +99,16 @@
         <!-- Main Menu End -->
         <div class="tw-flex tw-items-center tw-gap-[10px] lg:tw-hidden">
           <!-- Let’s Start Button Start -->
-          <div class="header-btn">
-            <a href="/#test" class="btn-default">Kiểm tra thính lực</a>
+          <div class="header-btn tw-leading-[1]">
+            <a href="/#test" class="btn-default">Kiểm tra <span class="">thính lực</span></a>
           </div>
           <!-- Let’s Start Button End -->
+          <!-- Button Translate Start -->
+          <div class=""> <button class="pm-btn-translate" onclick="pmPopupTranslateShow()">
+    <span translate="no" class="pm-btn-translate_text">VI</span>
+    <img class="pm-btn-translate_img" alt="icon-lang" src="8pm-assest/images/translate/vn.svg"/>
+</button> </div>
+          <!-- Button Translate End -->
           <div class="navbar-toggle"></div>
         </div>
       </div>
@@ -112,7 +124,7 @@
             <div class="col-lg-12">
                 <!-- Page Header Box Start -->
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Bài Viết</span> của Chúng Tôi</h1>
+                    <h1 class="wow fadeInUp" data-cursor="-opaque"><span>Bài Viết</span> của Chúng Tôi</h1>
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="./">Trang Chủ</a></li>
@@ -511,8 +523,32 @@
 <!-- Main Custom js file -->
 <script src="js/function.js"></script>
 <!-- Custome js file here -->
-<script type="text/javascript" src="8pm-assest/js/product.js?ver=20251031.1.0"></script>
-<script type="text/javascript" src="8pm-assest/js/ultility.js?ver=20251031.1.0"></script>
+<script type="text/javascript" src="8pm-assest/js/product.js?ver=20251121.1.0"></script>
+<script type="text/javascript" src="8pm-assest/js/ultility.js?ver=20251121.1.0"></script>
+<!-- Google Translate -->
+<div id="google_translate_element" style="display:none;"></div>
+<!-- Popup Translate Start -->
+<!-- Popup translate Start -->
+<div id="popup_translate" class="pm-popup-translate pm-popup">
+    <div class="pm-popup_content">
+        <div class="pm-popup_content-inner">
+        </div>
+    </div>
+    <div class="pm-popup_bg" onclick="pmPopupTranslateHide()"></div>
+</div>
+<!-- Popup translate end --> 
+<!-- Popup Translate End -->
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'vi',
+            autoDisplay: false,
+            layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT
+        }, 'google_translate_element');
+    }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="8pm-assest/js/translate.js?ver=20251121.1.0"></script>
 </body>
 
 </html>

@@ -135,6 +135,14 @@
   margin-bottom: 8px
 }
 
+.tw-mr-10 {
+  margin-right: 2.5rem
+}
+
+.tw-mr-\[10px\] {
+  margin-right: 10px
+}
+
 .tw-mt-\[14px\] {
   margin-top: 14px
 }
@@ -209,6 +217,10 @@
 
 .tw-gap-\[30px_50px\] {
   gap: 30px 50px
+}
+
+.tw-gap-y-\[10px\] {
+  row-gap: 10px
 }
 
 .tw-space-y-\[50px\] > :not([hidden]) ~ :not([hidden]) {
@@ -369,6 +381,10 @@
 .tw-ordinal {
   --tw-ordinal: ordinal;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)
+}
+
+.tw-leading-\[1\] {
+  line-height: 1
 }
 
 .\!tw-text-bg {
