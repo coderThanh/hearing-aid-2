@@ -106,6 +106,22 @@
   --tw-contain-style:  
 }
 
+.tw-absolute {
+  position: absolute
+}
+
+.tw-relative {
+  position: relative
+}
+
+.tw-left-0 {
+  left: 0px
+}
+
+.tw-top-0 {
+  top: 0px
+}
+
 .tw-order-\[-1\] {
   order: -1
 }
@@ -191,8 +207,16 @@
   height: 80px
 }
 
+.tw-h-full {
+  height: 100%
+}
+
 .\!tw-w-\[auto\] {
   width: auto !important
+}
+
+.tw-w-full {
+  width: 100%
 }
 
 .tw-grid-cols-1 {
@@ -227,6 +251,10 @@
   --tw-space-y-reverse: 0;
   margin-top: calc(50px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(50px * var(--tw-space-y-reverse))
+}
+
+.tw-overflow-visible {
+  overflow: visible
 }
 
 .tw-rounded-lg {
@@ -296,6 +324,11 @@
   background-color: rgb(var(--bg-3nd) / var(--tw-bg-opacity, 1))
 }
 
+.tw-bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1))
+}
+
 .tw-bg-cover {
   background-size: cover
 }
@@ -344,6 +377,11 @@
 .tw-py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px
+}
+
+.tw-py-\[60px\] {
+  padding-top: 60px;
+  padding-bottom: 60px
 }
 
 .tw-pb-\[60px\] {
@@ -401,12 +439,34 @@
   color: rgb(var(--bg) / 0.7)
 }
 
+.tw-opacity-50 {
+  opacity: 0.5
+}
+
 /* Your custom styles */
 
 @media screen and (max-width: 991px) {
 }
 
 @media screen and (max-width: 767px) {
+}
+
+@media not all and (min-width: 576px) {
+  .max-sm\:tw-overflow-visible {
+    overflow: visible
+  }
+}
+
+@media not all and (min-width: 0px) {
+  .max-xs\:tw-overflow-visible {
+    overflow: visible
+  }
+}
+
+@media (min-width: 0px) {
+  .xs\:tw-overflow-visible {
+    overflow: visible
+  }
 }
 
 @media (min-width: 576px) {

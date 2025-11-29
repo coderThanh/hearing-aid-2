@@ -99,6 +99,60 @@ header.main-header {
     padding: 70px 0;
 }
 
+/* Home - Feature --- */
+.pm-home-feature .swiper-slide {
+    min-height: 100%;
+}
+
+.pm-home-feature .pm-feature-box {
+    min-height: 100%;
+}
+
+.swiper-slide {}
+
+.pm-feature-box {
+    border: 1px solid rgb(var(--color-border-1)/10%);
+    border-radius: var(--radius-2);
+    overflow: hidden;
+}
+
+.pm-feature-box_body {
+    padding: 14px 18px 30px;
+    text-align: center;
+}
+
+.pm-feature-box_thumb-inner {
+    position: relative;
+    padding-top: 65%;
+}
+
+.pm-feature-box_thumb-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    line-height: 0;
+}
+
+.pm-feature-box_title {
+    font-weight: 600;
+    font-size: var(--size-2);
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: rgb(var(--color-text-title));
+}
+
+.pm-feature-box_desc {
+    line-height: 1.6;
+    color: rgb(var(--color-text-basic));
+}
+
+
+
+
 /* Ux - Product --- */
 .swiper-products-auto-width .swiper-slide {
     width: 340px;
@@ -396,7 +450,8 @@ header.main-header {
     position: relative;
 }
 
-.pm-product-single-hero video {
+.pm-product-single-hero video,
+.pm-product-single-hero img {
     width: 100%;
     height: 700px;
     object-fit: cover;
@@ -568,6 +623,50 @@ header.main-header {
     font-weight: 300;
 }
 
+/* Single Product - Feature Box ---- */
+.pm-single-prd-feature-box {
+    border: 1px solid rgb(var(--color-border-1)/10%);
+    border-radius: var(--radius-2);
+    overflow: hidden;
+    padding: 15px 18px 0;
+}
+
+.pm-single-prd-feature-box_thumb {
+    width: 120px;
+}
+
+.pm-single-prd-feature-box_thumb-inner {
+    padding-top: 100%;
+    position: relative;
+}
+
+.pm-single-prd-feature-box_thumb-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.pm-single-prd-feature-box_body {
+    padding: 14px 0 24px;
+}
+
+.pm-single-prd-feature-box_title {
+    font-weight: 500;
+    color: rgb(var(--color-text-title));
+    font-size: var(--size-2);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.pm-single-prd-feature-box_desc {
+    color: rgb(var(--color-text-basic));
+    line-height: 1.5;
+}
+
 
 /* Button Translate ---- */
 .pm-btn-translate {
@@ -631,8 +730,6 @@ header.main-header {
 
 
 /* Popup  */
-.pm-popup {}
-
 .pm-popup.active .pm-popup_bg {
     display: block;
     width: 100%;
