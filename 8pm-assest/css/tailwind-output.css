@@ -265,6 +265,10 @@
   border-radius: var(--radius-3)
 }
 
+.tw-border {
+  border-width: 1px
+}
+
 .tw-border-0 {
   border-width: 0px
 }
@@ -274,6 +278,14 @@
 }
 
 .tw-border-t {
+  border-top-width: 1px
+}
+
+.tw-border-t-2 {
+  border-top-width: 2px
+}
+
+.tw-border-t-\[1px\] {
   border-top-width: 1px
 }
 
@@ -379,11 +391,6 @@
   padding-bottom: 50px
 }
 
-.tw-py-\[60px\] {
-  padding-top: 60px;
-  padding-bottom: 60px
-}
-
 .tw-pb-\[60px\] {
   padding-bottom: 60px
 }
@@ -453,18 +460,6 @@
 
 @media not all and (min-width: 576px) {
   .max-sm\:tw-overflow-visible {
-    overflow: visible
-  }
-}
-
-@media not all and (min-width: 0px) {
-  .max-xs\:tw-overflow-visible {
-    overflow: visible
-  }
-}
-
-@media (min-width: 0px) {
-  .xs\:tw-overflow-visible {
     overflow: visible
   }
 }
