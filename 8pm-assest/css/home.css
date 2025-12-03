@@ -577,6 +577,67 @@ header.main-header {
 }
 
 
+/* Single Product - Video ---- */
+.videos-tab {}
+
+.videos-tab {}
+
+.videos-tab_titles {
+    background-color: var(--secondary-color);
+    border-radius: var(--radius-4);
+    padding: 30px;
+}
+
+.videos-tab_title {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-bottom: 1px solid var(--dark-divider-color);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.videos-tab_title.active,
+.videos-tab_title:hover {
+    color: var(--accent-color);
+}
+
+.videos-tab_title:last-child {
+    border-bottom: unset;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.videos-tab_title::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(6px);
+    background: url(/images/arrow-blue.svg) no-repeat center center;
+    background-size: 12px auto;
+    width: 14px;
+    height: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.videos-tab_title:hover:before {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.videos-tab_content-title {
+    font-size: var(--size-4);
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+
 
 /* Ux - Video Iframe Wrap ---- */
 .pm-video-iframe-wrap {

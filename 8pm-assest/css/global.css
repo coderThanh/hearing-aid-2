@@ -19,6 +19,8 @@
 
     --opacity-text-sub: 0.7;
 
+    --sticky-top: 140px;
+
 
     --ff-body: 'Be Vietnam Pro', sans-serif;
     --ff-heading: 'Be Vietnam Pro', sans-serif;
@@ -50,6 +52,10 @@
     --sketch-loading-bg: linear-gradient(90deg, rgb(var(--bg-opposite), 5%) 8%, rgb(var(--bg)) 18%, rgb(var(--bg-opposite), 5%) 33%);
     --sketch-loading-bg-size: 200% 100%;
     --sketch-loading-animetion: 1.5s sketchloading linear infinite;
+}
+
+.sticky-top {
+    top: var(--sticky-top);
 }
 
 body {
