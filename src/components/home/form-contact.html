@@ -1,0 +1,32 @@
+<form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp"
+    data-wow-delay="0.25s">
+    <div class="row">
+        <div class="form-group col-md-6 mb-4">
+            <input type="text" name="name" class="form-control" id="fullname"
+                placeholder="Họ và tên *" required="">
+            <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group col-md-6 mb-4">
+            <input type="text" name="phone" class="form-control" id="phone"
+                placeholder="Số điện thoại*" required="">
+            <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group col-md-12 mb-4">
+            <select name="services" class="form-control form-select" id="services" required>
+                <option value="" disabled selected>Chọn chi nhánh *</option>
+                <option value="hcm">Chi nhánh Hồ Chí Minh</option>
+                <option value="ha_noi">dental implants</option>
+            </select>
+            <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group col-md-12 mb-5">
+            <textarea name="msg" class="form-control" id="msg" rows="5"
+                placeholder="Tin nhắn"></textarea>
+            <div class="help-block with-errors"></div>
+        </div>
+        <div class="col-md-12">
+            <button type="submit" class="btn-default">Đăng ký ngay</button>
+            <div id="msgSubmit" class="h3 hidden"></div>
+        </div>
+    </div>
+</form>
