@@ -1,13 +1,14 @@
+const prefixAssest = ''
 const listLange = [
   {
     lang: 'en',
     name: 'English',
-    flag: '/8pm-assest/images/translate/uk.svg',
+    flag: `${prefixAssest}/8pm-assest/images/translate/uk.svg`,
   },
   {
     lang: 'vi',
     name: 'Tiếng Việt',
-    flag: '/8pm-assest/images/translate/vn.svg',
+    flag: `${prefixAssest}/8pm-assest/images/translate/vn.svg`,
   },
 ]
 
