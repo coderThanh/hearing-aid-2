@@ -200,6 +200,10 @@
   margin-top: 40px
 }
 
+.tw-mt-\[16px\] {
+  margin-top: 16px
+}
+
 .tw-block {
   display: block
 }
@@ -479,7 +483,23 @@
 @media screen and (max-width: 767px) {
 }
 
+@media not all and (min-width: 1200px) {
+  .max-xl\:tw-hidden {
+    display: none
+  }
+}
+
+@media not all and (min-width: 992px) {
+  .max-lg\:tw-hidden {
+    display: none
+  }
+}
+
 @media not all and (min-width: 576px) {
+  .max-sm\:tw-hidden {
+    display: none
+  }
+
   .max-sm\:tw-overflow-visible {
     overflow: visible
   }

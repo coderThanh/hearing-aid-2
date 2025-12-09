@@ -44,9 +44,9 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="8pm-assest/css/global.css?ver=20251203.2.0">
-    <link rel="stylesheet" href="8pm-assest/css/home.css?ver=20251203.2.0">
-    <link rel="stylesheet" href="8pm-assest/css/tailwind-output.css?ver=20251203.2.0">
+    <link rel="stylesheet" href="8pm-assest/css/global.css?ver=20251209.2.0">
+    <link rel="stylesheet" href="8pm-assest/css/home.css?ver=20251209.2.0">
+    <link rel="stylesheet" href="8pm-assest/css/tailwind-output.css?ver=20251209.2.0">
 </head>
 
 <body>
@@ -96,7 +96,7 @@
           <!-- Button Translate End -->
           <!-- Let’s Start Button Start -->
           <div class="header-btn d-inline-flex">
-            <a href="/#test" class="btn-default">Kiểm tra thính lực</a>
+            <a href="/#test" class="btn-default">Kiểm tra <span class="max-lg:tw-hidden">thính lực</span></a>
           </div>
           <!-- Let’s Start Button End -->
         </div>
@@ -104,7 +104,7 @@
         <div class="tw-flex tw-items-center tw-gap-[10px] lg:tw-hidden">
           <!-- Let’s Start Button Start -->
           <div class="header-btn tw-leading-[1]">
-            <a href="/#test" class="btn-default">Kiểm tra <span class="">thính lực</span></a>
+            <a href="/#test" class="btn-default">Kiểm tra <span class="max-sm:tw-hidden">thính lực</span></a>
           </div>
           <!-- Let’s Start Button End -->
           <!-- Button Translate Start -->
@@ -215,12 +215,14 @@
                                             class="pm-product-box_thumb-img">
                                     </div>
                                     <div class="pm-product-box_cart">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" data-name="Flat Color"
-                                            xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                                            <path
-                                                d="M12 20a1 1 0 0 1-1-1v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 2 0v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-1 1" />
-                                        </svg>
-                                        <span> Thêm giỏ hàng </span>
+                                        <a href="#">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" data-name="Flat Color"
+                                                xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                                <path
+                                                    d="M12 20a1 1 0 0 1-1-1v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 2 0v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-1 1" />
+                                            </svg>
+                                            <span> Xem chi tiết </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +247,7 @@
                                             <path
                                                 d="M12 20a1 1 0 0 1-1-1v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 2 0v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-1 1" />
                                         </svg>
-                                        <span> Thêm giỏ hàng </span>
+                                        <span> Xem chi tiết </span>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +272,7 @@
                                             <path
                                                 d="M12 20a1 1 0 0 1-1-1v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 2 0v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-1 1" />
                                         </svg>
-                                        <span> Thêm giỏ hàng </span>
+                                        <span> Xem chi tiết </span>
                                     </div>
                                 </div>
                             </div>
@@ -295,12 +297,11 @@
                                             <path
                                                 d="M12 20a1 1 0 0 1-1-1v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 2 0v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-1 1" />
                                         </svg>
-                                        <span> Thêm giỏ hàng </span>
+                                        <span> Xem chi tiết </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                       
                     </div>
                 </div>
             </div>
@@ -583,7 +584,7 @@
         </div>
         <div class="col-md-12">
             <button type="submit" class="btn-default">Đăng ký ngay</button>
-            <div id="msgSubmit" class="h3 hidden"></div>
+            <div id="msgSubmit" class="h5 hidden tw-mt-[16px]"></div>
         </div>
     </div>
 </form> </div>
