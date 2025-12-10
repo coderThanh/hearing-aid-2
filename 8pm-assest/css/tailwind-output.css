@@ -184,6 +184,10 @@
   margin-top: 14px
 }
 
+.tw-mt-\[16px\] {
+  margin-top: 16px
+}
+
 .tw-mt-\[20px\] {
   margin-top: 20px
 }
@@ -198,10 +202,6 @@
 
 .tw-mt-\[40px\] {
   margin-top: 40px
-}
-
-.tw-mt-\[16px\] {
-  margin-top: 16px
 }
 
 .tw-block {
@@ -481,12 +481,6 @@
 }
 
 @media screen and (max-width: 767px) {
-}
-
-@media not all and (min-width: 1200px) {
-  .max-xl\:tw-hidden {
-    display: none
-  }
 }
 
 @media not all and (min-width: 992px) {

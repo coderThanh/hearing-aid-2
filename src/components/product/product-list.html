@@ -1,14 +1,25 @@
 <!-- Page Product Start -->
 <div class="page-product_proudcts tw-py-[40px] md:tw-py-[60px]">
     <div class="container">
-        <div class="row row-products">
-            <div class="col-6 col-lg-4 col-md-4"> @@include('components/product/box-product.html') </div>
-            <div class="col-6 col-lg-4 col-md-4"> @@include('components/product/box-product.html') </div>
-            <div class="col-6 col-lg-4 col-md-4"> @@include('components/product/box-product.html') </div>
-            <div class="col-6 col-lg-4 col-md-4"> @@include('components/product/box-product.html') </div>
-            <div class="col-6 col-lg-4 col-md-4"> @@include('components/product/box-product.html') </div>
-            <div class="col-6 col-lg-4 col-md-4"> @@include('components/product/box-product.html') </div>
-  
+        <div class="swiper swiper-default max-sm:tw-overflow-visible" data-slider-per-view="1.5"
+            data-slider-per-view-md="2.5" data-slider-per-view-lg="3.5" data-space-between="24">
+            <div class="swiper-wrapper">
+                <!-- Slide Start -->
+                <div class="swiper-slide"> @@include('components/product/box-product.html') </div>
+                <!-- Slide EndÏ -->
+                <!-- Slide Start -->
+                <div class="swiper-slide"> @@include('components/product/box-product.html') </div>
+                <!-- Slide EndÏ -->
+                <!-- Slide Start -->
+                <div class="swiper-slide"> @@include('components/product/box-product.html') </div>
+                <!-- Slide EndÏ -->
+                <!-- Slide Start -->
+                <div class="swiper-slide"> @@include('components/product/box-product.html') </div>
+                <!-- Slide EndÏ -->
+                <!-- Slide Start -->
+                <div class="swiper-slide"> @@include('components/product/box-product.html') </div>
+                <!-- Slide EndÏ -->
+            </div>
         </div>
         <div class="row tw-mt-[40px] ">
             <div class="col-md-12"> @@include('components/pagination.html') </div>

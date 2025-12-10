@@ -361,7 +361,7 @@ header.main-header {
 }
 
 .pm-box-product-shop {
-    --product-img-ratio: 100%;
+    --product-img-ratio: 75%;
 }
 
 .pm-box-product-shop_feature-img-wrap {
