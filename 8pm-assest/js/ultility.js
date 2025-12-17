@@ -127,8 +127,6 @@ function initSwiperDefault() {
         : Number($(this).data('space-between'))
       let loop = Boolean($(this).data('loop'))
 
-      console.log(swiperEletment)
-
       if (!swiperEletment) return
 
       // init swiper default
