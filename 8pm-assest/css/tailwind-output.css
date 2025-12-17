@@ -148,6 +148,10 @@
   margin-right: auto
 }
 
+.tw-mb-\[10px\] {
+  margin-bottom: 10px
+}
+
 .tw-mb-\[30px\] {
   margin-bottom: 30px
 }
@@ -202,14 +206,6 @@
 
 .tw-mt-\[40px\] {
   margin-top: 40px
-}
-
-.tw-mb-\[20px\] {
-  margin-bottom: 20px
-}
-
-.tw-mb-\[10px\] {
-  margin-bottom: 10px
 }
 
 .tw-block {
@@ -498,14 +494,6 @@
 }
 
 @media not all and (min-width: 576px) {
-  .max-sm\:tw-mb-\[-40px\] {
-    margin-bottom: -40px
-  }
-
-  .max-sm\:tw-mb-\[-70px\] {
-    margin-bottom: -70px
-  }
-
   .max-sm\:tw-mb-\[-30px\] {
     margin-bottom: -30px
   }
