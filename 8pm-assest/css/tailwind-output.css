@@ -204,6 +204,14 @@
   margin-top: 40px
 }
 
+.tw-mb-\[20px\] {
+  margin-bottom: 20px
+}
+
+.tw-mb-\[10px\] {
+  margin-bottom: 10px
+}
+
 .tw-block {
   display: block
 }
