@@ -947,6 +947,10 @@ header.main-header {
     padding: 10px 16px;
 }
 
+.footer-form  .msgSubmit {
+    color: rgb(var(--bg));
+}
+
 .main-footer h3  {
     line-height: 1.5;
 }
