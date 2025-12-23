@@ -157,3 +157,13 @@ function initSwiperDefault() {
   })
 }
 initSwiperDefault()
+
+// ----------
+function pmPopupHidden(idPopup) {
+  document.querySelector(`#${idPopup}`).classList.remove('active')
+}
+
+//
+function pmPopupShow(idPopup) {
+  document.querySelector(`#${idPopup}`).classList.add('active')
+}

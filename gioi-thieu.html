@@ -515,8 +515,8 @@
                 <!-- Footer Quick Links Start -->
                 <div class="footer-links footer-quick-links">
                     <h3>ĐĂNG KÝ NGAY ĐỂ NGHE THỬ MÁY MIỄN PHÍ </h3>
-                        <!-- Form Start -->
-                        <div class="tw-mt-[10px] footer-form "> <form id="contactFormSimple" action="#" method="POST" data-toggle="validator" class="wow fadeInUp"
+                    <!-- Form Start -->
+                    <div class="tw-mt-[10px] footer-form "> <form id="contactFormSimple" action="#" method="POST" data-toggle="validator" class="wow fadeInUp"
     data-wow-delay="0.25s">
     <div class="row">
         <div class="form-group  mb-4">
@@ -540,11 +540,10 @@
         </div>
         <div class="col-md-12">
             <button type="submit" class="btn-default">Đăng ký ngay</button>
-            <div  class="msgSubmit h5 hidden tw-mt-[16px]"></div>
         </div>
     </div>
 </form> </div>
-                        <!-- Form End -->
+                    <!-- Form End -->
                 </div>
                 <!-- Footer Quick Links End -->
             </div>
@@ -565,6 +564,22 @@
     </div>
 </footer>
 <!-- Footer End -->
+<!-- Popup notify  -->
+<div> <!-- Popup notify Start -->
+<div id="popup_notify" class="pm-popup-notify pm-popup">
+    <div class="pm-popup_content">
+        <div class="pm-popup_content-inner tw-p-[25px_20px] tw-rounded-xl tw-w-[300px] tw-relative">
+            <div id="msgSubmit" class=""></div>
+            <!-- Close button -->
+            <button class="tw-absolute tw-top-[5px] tw-right-[5px] tw-bg-bg-opposite/5 hover:tw-bg-bg-opposite/15 tw-transition-all tw-border-0 tw-flex tw-items-center tw-justify-center tw-w-[25px] tw-h-[25px] tw-cursor-pointer tw-rounded-[50%]" onclick="pmPopupHidden('popup_notify')">
+                <span
+                    class="material-symbols-outlined !tw-text-[16px]"> close </span>
+            </button>
+        </div>
+    </div>
+    <div class="pm-popup_bg" onclick="pmPopupHidden('popup_notify')"></div>
+</div>
+<!-- Popup notify end --></div>
 <!-- Jquery Library File -->
 <script src="js/jquery-3.7.1.min.js"></script>
 <!-- Bootstrap js file -->

@@ -126,6 +126,22 @@
   top: 0px
 }
 
+.tw-right-\[10px\] {
+  right: 10px
+}
+
+.tw-top-\[10px\] {
+  top: 10px
+}
+
+.tw-right-\[5px\] {
+  right: 5px
+}
+
+.tw-top-\[5px\] {
+  top: 5px
+}
+
 .tw-z-10 {
   z-index: 10
 }
@@ -240,6 +256,14 @@
   height: 100%
 }
 
+.tw-h-\[30px\] {
+  height: 30px
+}
+
+.tw-h-\[25px\] {
+  height: 25px
+}
+
 .\!tw-w-\[auto\] {
   width: auto !important
 }
@@ -248,8 +272,24 @@
   width: 100%
 }
 
+.tw-w-\[300px\] {
+  width: 300px
+}
+
+.tw-w-\[30px\] {
+  width: 30px
+}
+
+.tw-w-\[25px\] {
+  width: 25px
+}
+
 .tw-max-w-\[767px\] {
   max-width: 767px
+}
+
+.tw-cursor-pointer {
+  cursor: pointer
 }
 
 .tw-grid-cols-1 {
@@ -262,6 +302,10 @@
 
 .tw-items-center {
   align-items: center
+}
+
+.tw-justify-center {
+  justify-content: center
 }
 
 .tw-gap-\[10px\] {
@@ -296,6 +340,10 @@
 
 .tw-rounded-xl {
   border-radius: var(--radius-3)
+}
+
+.tw-rounded-\[50\%\] {
+  border-radius: 50%
 }
 
 .tw-border {
@@ -374,6 +422,27 @@
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1))
 }
 
+.tw-bg-transparent {
+  background-color: transparent
+}
+
+.tw-bg-bg\/10 {
+  background-color: rgb(var(--bg) / 0.1)
+}
+
+.tw-bg-bg-opposite\/10 {
+  background-color: rgb(var(--bg-opposite) / 0.1)
+}
+
+.tw-bg-bg-opposite {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--bg-opposite) / var(--tw-bg-opacity, 1))
+}
+
+.tw-bg-bg-opposite\/5 {
+  background-color: rgb(var(--bg-opposite) / 0.05)
+}
+
 .tw-bg-cover {
   background-size: cover
 }
@@ -397,6 +466,18 @@
 
 .tw-p-\[30px\] {
   padding: 30px
+}
+
+.tw-p-\[20px\] {
+  padding: 20px
+}
+
+.tw-p-\[30px_20px\] {
+  padding: 30px 20px
+}
+
+.tw-p-\[25px_20px\] {
+  padding: 25px 20px
 }
 
 .tw-px-0 {
@@ -452,6 +533,14 @@
   font-size: var(--size-small)
 }
 
+.tw-text-\[20px\] {
+  font-size: 20px
+}
+
+.\!tw-text-\[16px\] {
+  font-size: 16px !important
+}
+
 .tw-font-semibold {
   font-weight: 600
 }
@@ -479,8 +568,19 @@
   color: rgb(var(--bg) / 0.7)
 }
 
+.tw-text-\[\#000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1))
+}
+
 .tw-opacity-50 {
   opacity: 0.5
+}
+
+.tw-transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
 }
 
 /* Your custom styles */
@@ -489,6 +589,18 @@
 }
 
 @media screen and (max-width: 767px) {
+}
+
+.hover\:tw-bg-bg\/5:hover {
+  background-color: rgb(var(--bg) / 0.05)
+}
+
+.hover\:tw-bg-bg\/10:hover {
+  background-color: rgb(var(--bg) / 0.1)
+}
+
+.hover\:tw-bg-bg-opposite\/15:hover {
+  background-color: rgb(var(--bg-opposite) / 0.15)
 }
 
 @media not all and (min-width: 992px) {
