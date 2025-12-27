@@ -133,9 +133,9 @@ function initSwiperDefault() {
       new Swiper(swiperEletment, {
         spaceBetween: spaceBetween,
         loop: loop,
-        autoPlay: autoPlay
+        autoplay: autoPlay
           ? { delay: autoPlay, pauseOnMouseEnter: true }
-          : null,
+          : undefined,
         breakpoints: {
           0: {
             slidesPerView: sliderPerViewSm,

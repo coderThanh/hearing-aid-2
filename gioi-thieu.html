@@ -121,8 +121,21 @@
   </div>
 </header>
 <!-- Header End -->
-<section class="pm-product-single-hero">
-    <video muted="" autoplay="" loop="">
+<section class="lg:tw-py-[30px] tw-bg-bg-opposite">
+    <div class="container">
+        <div class="row justify-content-center row-collapse">
+            <div class="col col-lg-9">
+                <div class="pm-video-iframe-wrap !tw-rounded-[0]">
+                    <iframe width="200" height="315"
+                        src="https://www.youtube.com/embed/YMPA-EjQ7LM?si=Xl6UDAb3lh6UQ4H5"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <video muted="" autoplay="" loop="">
         <source src="8pm-assest/video/home-video-1.mp4" type="video/mp4">
     </video>
     <div class="el-texts ">
@@ -133,7 +146,7 @@
                 <li class="breadcrumb-item active" aria-current="page">Giới Thiệu</li>
             </ol>
         </nav>
-    </div>
+    </div> -->
 </section>
 <!-- About Us Section Start -->
 <div class="about-us pm-about-us" id="benefit">
@@ -211,7 +224,8 @@
             <div class="col-lg-8">
                 <!-- company Carousel Start -->
                 <div class="company-carousel">
-                    <div class="swiper companies_logo_slider">
+                    <div class="swiper swiper-default" data-slider-per-view="3" data-slider-per-view-md="4"
+                        data-slider-per-view-lg="5" data-space-between="20" >
                         <div class="swiper-wrapper">
                             <!-- company Logo Start -->
                             <div class="swiper-slide">

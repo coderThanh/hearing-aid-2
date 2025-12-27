@@ -350,6 +350,15 @@ header.main-header {
 }
 
 /* Ux - Product list --- */
+.row-collapse {
+    --bs-gutter-x: 0;
+}
+
+.row-collapse>* {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
 .row-products {
     --bs-gutter-x: 30px;
     --bs-gutter-y: 30px;
@@ -935,23 +944,23 @@ header.main-header {
 
 
 /* Footer Form ---- */
-.footer-form  {
+.footer-form {
     border-radius: var(--radius-3);
     padding: 25px 20px 15px;
     background-color: rgb(var(--bg)/5%);
 }
 
-.footer-form  .form-control {
+.footer-form .form-control {
     border: 0;
     font-size: 16px;
     padding: 10px 16px;
 }
 
-.footer-form  .msgSubmit {
+.footer-form .msgSubmit {
     color: rgb(var(--bg));
 }
 
-.main-footer h3  {
+.main-footer h3 {
     line-height: 1.5;
 }
 

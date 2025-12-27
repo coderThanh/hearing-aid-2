@@ -122,20 +122,12 @@
   left: 0px
 }
 
-.tw-top-0 {
-  top: 0px
-}
-
-.tw-right-\[10px\] {
-  right: 10px
-}
-
-.tw-top-\[10px\] {
-  top: 10px
-}
-
 .tw-right-\[5px\] {
   right: 5px
+}
+
+.tw-top-0 {
+  top: 0px
 }
 
 .tw-top-\[5px\] {
@@ -204,10 +196,6 @@
   margin-top: 14px
 }
 
-.tw-mt-\[16px\] {
-  margin-top: 16px
-}
-
 .tw-mt-\[20px\] {
   margin-top: 20px
 }
@@ -244,6 +232,10 @@
   height: 220px
 }
 
+.tw-h-\[25px\] {
+  height: 25px
+}
+
 .tw-h-\[60px\] {
   height: 60px
 }
@@ -256,32 +248,20 @@
   height: 100%
 }
 
-.tw-h-\[30px\] {
-  height: 30px
-}
-
-.tw-h-\[25px\] {
-  height: 25px
-}
-
 .\!tw-w-\[auto\] {
   width: auto !important
 }
 
-.tw-w-full {
-  width: 100%
+.tw-w-\[25px\] {
+  width: 25px
 }
 
 .tw-w-\[300px\] {
   width: 300px
 }
 
-.tw-w-\[30px\] {
-  width: 30px
-}
-
-.tw-w-\[25px\] {
-  width: 25px
+.tw-w-full {
+  width: 100%
 }
 
 .tw-max-w-\[767px\] {
@@ -334,6 +314,10 @@
   overflow: visible
 }
 
+.tw-rounded-\[50\%\] {
+  border-radius: 50%
+}
+
 .tw-rounded-lg {
   border-radius: var(--radius-2)
 }
@@ -342,8 +326,8 @@
   border-radius: var(--radius-3)
 }
 
-.tw-rounded-\[50\%\] {
-  border-radius: 50%
+.\!tw-rounded-\[0\] {
+  border-radius: 0 !important
 }
 
 .tw-border {
@@ -417,6 +401,15 @@
   background-color: rgb(var(--bg-3nd) / var(--tw-bg-opacity, 1))
 }
 
+.tw-bg-bg-opposite {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--bg-opposite) / var(--tw-bg-opacity, 1))
+}
+
+.tw-bg-bg-opposite\/5 {
+  background-color: rgb(var(--bg-opposite) / 0.05)
+}
+
 .tw-bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1))
@@ -426,21 +419,16 @@
   background-color: transparent
 }
 
-.tw-bg-bg\/10 {
-  background-color: rgb(var(--bg) / 0.1)
+.tw-bg-bg-opposite\/80 {
+  background-color: rgb(var(--bg-opposite) / 0.8)
 }
 
-.tw-bg-bg-opposite\/10 {
-  background-color: rgb(var(--bg-opposite) / 0.1)
+.tw-bg-bg-opposite\/90 {
+  background-color: rgb(var(--bg-opposite) / 0.9)
 }
 
-.tw-bg-bg-opposite {
-  --tw-bg-opacity: 1;
-  background-color: rgb(var(--bg-opposite) / var(--tw-bg-opacity, 1))
-}
-
-.tw-bg-bg-opposite\/5 {
-  background-color: rgb(var(--bg-opposite) / 0.05)
+.tw-bg-bg-opposite\/95 {
+  background-color: rgb(var(--bg-opposite) / 0.95)
 }
 
 .tw-bg-cover {
@@ -464,20 +452,12 @@
      object-fit: contain
 }
 
-.tw-p-\[30px\] {
-  padding: 30px
-}
-
-.tw-p-\[20px\] {
-  padding: 20px
-}
-
-.tw-p-\[30px_20px\] {
-  padding: 30px 20px
-}
-
 .tw-p-\[25px_20px\] {
   padding: 25px 20px
+}
+
+.tw-p-\[30px\] {
+  padding: 30px
 }
 
 .tw-px-0 {
@@ -529,16 +509,12 @@
   text-align: justify
 }
 
-.tw-text-sm {
-  font-size: var(--size-small)
-}
-
-.tw-text-\[20px\] {
-  font-size: 20px
-}
-
 .\!tw-text-\[16px\] {
   font-size: 16px !important
+}
+
+.tw-text-sm {
+  font-size: var(--size-small)
 }
 
 .tw-font-semibold {
@@ -568,11 +544,6 @@
   color: rgb(var(--bg) / 0.7)
 }
 
-.tw-text-\[\#000\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1))
-}
-
 .tw-opacity-50 {
   opacity: 0.5
 }
@@ -589,14 +560,6 @@
 }
 
 @media screen and (max-width: 767px) {
-}
-
-.hover\:tw-bg-bg\/5:hover {
-  background-color: rgb(var(--bg) / 0.05)
-}
-
-.hover\:tw-bg-bg\/10:hover {
-  background-color: rgb(var(--bg) / 0.1)
 }
 
 .hover\:tw-bg-bg-opposite\/15:hover {
@@ -701,6 +664,11 @@
 
   .lg\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+
+  .lg\:tw-py-\[30px\] {
+    padding-top: 30px;
+    padding-bottom: 30px
   }
 }
 
